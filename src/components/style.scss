@@ -1,0 +1,25 @@
+.carousel-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  .carousel-wrapper {
+    flex: 1;
+    .carousel {
+      img {
+        height: 300px;
+      }
+      .thumbs-wrapper {
+        img {
+          height: 100px !important;
+        }
+      }
+      
+      .control-prev.control-arrow:before {
+        border-right: 8px solid #000000;
+      }
+      .control-next.control-arrow:before {
+        border-left: 8px solid #000000;
+      }
+    }
+  }
+}
